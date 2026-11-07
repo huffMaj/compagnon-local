@@ -1,0 +1,16 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+.cache/
+
+# Modèle IA (trop lourd : plusieurs Go)
+*.gguf
+
+# Binaires llama.cpp (à télécharger séparément)
+bin/
+
+# Fichiers système / éditeur
+.vscode/
+.idea/
+.DS_Store
